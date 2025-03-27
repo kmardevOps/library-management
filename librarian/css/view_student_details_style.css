@@ -1,0 +1,93 @@
+/*----------Table styles----------*/
+.student-table {
+  width: 90%;
+  max-width: 1000px;
+  margin: 4em auto;
+  font-size: 1.3rem;
+  color: #333333; /* Darker text for better contrast */
+  border-collapse: collapse;
+}
+
+.student-table thead {
+  background-color: #2C3E50; /* Dark blue-gray for a professional look */
+  color: #ECF0F1; /* Light text color for readability */
+  font-weight: bold;
+}
+
+.student-table th, .student-table td {
+  border: 1px solid #BDC3C7; /* Light gray borders for a soft contrast */
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.student-table tr:nth-child(even) {
+  background: #F8F9F9; /* Soft light gray for even rows */
+}
+
+.student-table tr:nth-child(odd) {
+  background: #FFFFFF; /* White background for odd rows */
+}
+
+.student-table th {
+  text-transform: uppercase;
+}
+
+.student-table tr:hover {
+  background: #D5DBDB; /* Subtle hover effect for rows */
+}
+
+/*----------Buttons----------*/
+.student-actions {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.student-actions input[type="button"], .student-actions input[type="submit"] {
+  border: none;
+  background: #2C3E50; /* Consistent professional dark blue-gray */
+  border-radius: 0.25em;
+  padding: 10px 15px;
+  color: #ECF0F1; /* Light text color for buttons */
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.student-actions input[type="button"]:hover, .student-actions input[type="submit"]:hover {
+  background: #3498DB; /* A professional blue on hover */
+}
+
+.student-actions input[type="button"]:focus, .student-actions input[type="submit"]:focus {
+  outline: none;
+  background: #1F2A38; /* Slightly darker background on focus */
+}
+
+.student-actions input[type="button"]:active, .student-actions input[type="submit"]:active {
+  transform: scale(0.95); /* Slightly smaller on click for a smoother feel */
+}
+
+/*----------Messages----------*/
+.student-success-message p {
+  background: #27AE60; /* Green for success */
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  text-align: center;
+  border-radius: 0.25em;
+  padding: 16px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+.student-error-message p {
+  background: #E74C3C; /* Red for errors */
+  color: #FFFFFF;
+  font-size: 1.4rem;
+  text-align: center;
+  border-radius: 0.25em;
+  padding: 16px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+}
